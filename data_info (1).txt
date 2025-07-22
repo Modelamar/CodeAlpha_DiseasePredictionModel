@@ -1,0 +1,22 @@
+📁 Dataset Information - Disease Prediction (Diabetes Dataset)
+
+🔗 Dataset URL:
+https://raw.githubusercontent.com/plotly/datasets/master/diabetes.csv
+
+🧬 Feature Description:
+1. Pregnancies               → Number of times the patient was pregnant
+2. Glucose                   → Plasma glucose concentration (mg/dL)
+3. BloodPressure             → Diastolic blood pressure (mm Hg)
+4. SkinThickness             → Triceps skinfold thickness (mm)
+5. Insulin                   → 2-Hour serum insulin (mu U/ml)
+6. BMI                       → Body Mass Index (weight in kg/(height in m)^2)
+7. DiabetesPedigreeFunction → A function which scores likelihood of diabetes based on family history
+8. Age                       → Age in years
+9. Outcome                   → Class label (0 = Non-diabetic, 1 = Diabetic)
+
+📌 Notes:
+- Some features (e.g., Glucose, BloodPressure, Insulin) contain biologically impossible zero values.
+- These zeroes were treated as missing values and imputed using column mean.
+- Dataset is often used for binary classification problems in health analytics.
+
+✅ Source: UCI Machine Learning Repository (via Plotly GitHub)
